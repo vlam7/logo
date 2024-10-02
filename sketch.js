@@ -31,7 +31,7 @@ function draw() {
   // Set the color of the 3D model to 8C7853
   ambientMaterial(140, 120, 83);
 
-  pointLight(150, 150, 150, locX, locY, 165);
+  pointLight(150, 150, 150, locX, locY, 150);
   scale(logoScale); // Scale the model to fit the canvas
   // texture(textureImg); // Uncomment this line if you want to apply texture
   model(obj);
