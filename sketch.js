@@ -26,7 +26,7 @@ function draw() {
     rotateY(frameCount * 0.05); // Rotate the model for animation
   }
 
-  ambientLight(180);
+  ambientLight(200);
 
   // Set the color of the 3D model to 8C7853
   ambientMaterial(140, 120, 83);
