@@ -33,7 +33,6 @@ function draw() {
 
   pointLight(150, 150, 150, locX, locY, 150);
   scale(logoScale); // Scale the model to fit the canvas
-  // texture(textureImg); // Uncomment this line if you want to apply texture
   model(obj);
 }
 
@@ -43,4 +42,10 @@ function mouseOverCanvas() {
 
 function mouseMoved() {
   spinLogo = mouseOverCanvas();
+}
+
+function mousePressed() {
+  if (mouseOverCanvas()) {
+    window.location.href = 'https://vinhlam.space'; // Redirect to the website
+  }
 }
